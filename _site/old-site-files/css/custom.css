@@ -1,0 +1,151 @@
+body {
+  font-family: 'Source Sans Pro';
+  padding-top: 50px;
+  color: #1d1f21;
+  background-color: #fdfdfd;
+}
+
+a {
+  color: #449ccf;
+}
+
+h1.featurette-heading {
+  margin-bottom: 1em;
+  margin-top: 2em;
+}
+
+h2 {
+  margin-bottom: 1em;
+  margin-top: 0.5em;
+}
+
+.row {
+  color: #1d1f21;
+}
+
+.lead {
+  color: #1d1f21;
+}
+
+.heading {
+  color: #1f1f21;
+}
+
+.featurette > img {
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.featurette-heading {
+  color: #1d1f21;
+}
+
+hr.featurette-divider {
+  border: 0; 
+  height: 1px; 
+/*  background: #ff0c00; */
+  background-image: linear-gradient(to right, #fdfdfd, #2626264d, #fdfdfd));
+}
+/*
+ * Custom button styling
+*/
+.btn-primary {
+  border-color: #81a2be;
+  background-image: -webkit-linear-gradient(top, #81a2be 0%, #81a2be 100%);
+  background-image: -o-linear-gradient(top, #81a2be 0%, #81a2be 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#81a2be), to(#81a2be));
+  background-image: linear-gradient(to bottom, #81a2be 0%, #81a2be 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff81a2be', endColorstr='#ff81a2be', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #81a2be;
+  background-position: 0 -15px;
+}
+
+.btn-primary:active,
+.btn-primary.active {
+  border-color: #81a2be;
+  background-color: #81a2be;
+}
+
+.btn-primary:disabled,
+.btn-primary[disabled] {
+  background-color: #81a2be;
+  background-image: none;
+}
+/*
+ * Custom styling the navbar to flat look
+*/
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  background-color: #c66;
+  background-image: -webkit-linear-gradient(top, #c66 0%, #c66 100%);
+  background-image: -o-linear-gradient(top, #c66 0%, #c66 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#c66), to(#c66));
+  background-image: linear-gradient(to bottom, #c66 0%, #c66 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffcc6666', endColorstr='#ffcc6666', GradientType=0);
+}
+
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+  background-color: #1d1f21;
+  background-image: -webkit-linear-gradient(top, #1d1f21 0%, #1d1f21 100%);
+  background-image: -o-linear-gradient(top, #1d1f21 0%, #1d1f21 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#1d1f21), to(#1d1f21));
+  background-image: linear-gradient(to bottom, #1d1f21 0%, #1d1f21 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff1d1f21', endColorstr='#ff1d1f21', GradientType=0);
+}
+
+.navbar-brand,
+.navbar-nav > li > a {
+  text-shadow: 0 1px 0 rgba(255, 255, 255, .25);
+}
+
+.navbar-inverse {
+  background-color: #1d1f21;
+  background-image: -webkit-linear-gradient(top, #1d1f21 0%, #1d1f21 100%);
+  background-image: -o-linear-gradient(top, #1d1f21 0%, #1d1f21 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#1d1f21), to(#1d1f21));
+  background-image: linear-gradient(to bottom, #1d1f21 0%, #1d1f21 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff1d1f21', endColorstr='#ff1d1f21', GradientType=0);
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+  background-image: -webkit-linear-gradient(top, #373b41 0%, #373b41 100%);
+  background-image: -o-linear-gradient(top, #373b41 0%, #373b41 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#373b41), to(#373b41));
+  background-image: linear-gradient(to bottom, #373b41 0%, #373b41 100%);
+  background-repeat: repeat-x;
+  -webkit-box-shadow: inset 0 3px 9px rgba(0, 0, 0, .25);
+  box-shadow: inset 0 3px 9px rgba(0, 0, 0, .25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff373b41', endColorstr='#ff373b41', GradientType=0);
+}
+
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-nav > li > a {
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, .25);
+}
+
+.fill {
+  display: block;
+  min-height: 100%;
+  min-width: 100%;;
+  overflow: hidden;
+  object-fit: cover;
+}
+iframe {
+  width: 100%;
+  height: 100%;
+  min-height: 400px;
+}
+.slider-size {
+height: 400px; /* This is your slider height */
+}
