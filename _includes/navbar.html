@@ -5,31 +5,30 @@
         aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav mr-auto">
-            {% assign links = site.data.navigation %}
-            {% for links in links %}
-                {% assign class = nill %}
-                {% if page.url contains link.url %}
-                    {% assign class = 'active' %}
-                {% endif %}
-                {% if link.sublinks %}
-                    <li class="nav-item dropdown {{ class }}"> 
-                        <a class="nav-link dropdown-toggle" href="{{ site.url }}{{ link.url }}" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ link.title }} <span class="sr-only">(current)</span></a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        {% for sublink in link.sublinks %}
-                            <a class="dropdown-item" href="{{ site.url}}{{ site.baseurl}}{{sublink.url}}">{{ sublink.title}}</a>
-                        {% endfor %}
-                        </div>
-                    </li>
-                {% else %}
-                <li class="nav-item {{ class }}">
-                    <a class="nav-link" href="{{ site.url }}{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a>
-                </li>
-                {% endif %}
-            {% endfor %}
-
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mr-auto">
+                {% assign links = site.data.navigation %}
+                {% for link in links %}
+                    {% assign class = nill %}
+                    {% if page.url contains link.url %}
+                        {% assign class = 'active' %}
+                    {% endif %}
+                    {% if link.sublinks %}
+                        <li class="nav-item dropdown {{ class }}"> 
+                            <a class="nav-link dropdown-toggle" href="{{ link.url }}" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ link.title }} <span class="sr-only">(current)</span></a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                {% for sublink in link.sublinks %}
+                                    <a class="dropdown-item" href="{{sublink.url}}">{{ sublink.title}}</a>
+                                {% endfor %}
+                            </div>
+                        </li>
+                    {% else %}
+                        <li class="nav-item {{ class }}">
+                            <a class="nav-link" href="{{ link.url }}">{{ link.title }}</a>
+                        </li>
+                    {% endif %}
+                {% endfor %}
             </ul>
-    </div>
-</nav>
+        </div>
+    </nav>
 </header>

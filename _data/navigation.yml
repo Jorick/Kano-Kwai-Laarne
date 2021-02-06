@@ -17,5 +17,14 @@
       url: /judo.html#judolesgevers"
 - title: Info
   url: /about.html
+  sublinks:
+    - title: Lid Worden
+      url: /about.html#lidworden
+    - title: Locatie
+      url: /about.html#locatie
+    - title: Over Kano Kwai
+      url: /about.html#overkanokwai
+    - title: Bestuur
+      url: /about.html#bestuur
 - title: Contact
   url: /contact.html

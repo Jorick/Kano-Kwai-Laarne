@@ -5,10 +5,10 @@
         <a href="privacy.html" target="blank">Privacy verklaring</a>
         &middot;
         <adress>
-            <script type="text/javascript" src="js/webmasterscript.js"></script>
+            <script type="text/javascript" src={{ "assets/js/webmasterscript.js" | relative_url }}></script>
         </adress>
     </p>
-    <script src="{{'/node_modules/jquery/dist/jquery.min.js' | prepend: site.baseurl}}"></script>
-    <script src="{{'/node_modules/popper.js/dist/umd/popper.min.js' | prepend: site.baseurl}}"></script>
-    <script src="{{'/node_modules/bootstrap/dist/js/bootstrap.min.js' | prepend: site.baseurl}}"></script>
+    <script src={{ "/assets/js/jquery.min.js" | relative_url}}></script>
+    <script src={{ "/assets/js/bootstrap.min.js" | relative_url}}></script>
+    <script src={{ "/assets/js/popper.min.js" | relative_url}}></script>
 </footer>
