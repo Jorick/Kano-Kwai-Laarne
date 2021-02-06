@@ -1,0 +1,21 @@
+- title: Kano Kwai Laarne
+  url: /index.html
+- title: Judo
+  url: /judo.html
+  sublinks:
+    - title: Trainingen
+      url: /judo.html#judotraining
+    - title: Judoplatform
+      url: /judo.html#judoplatform
+    - title: Examens
+      url: /judo.html#judoexamen
+    - title: wedstrijden
+      url: /judo.html#judowedstrijden
+    - title: Foto's
+      url: /judo.html#judofoto
+    - title: Lesgevers
+      url: /judo.html#judolesgevers"
+- title: Info
+  url: /about.html
+- title: Contact
+  url: /contact.html
