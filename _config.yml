@@ -6,3 +6,6 @@ sass:
   load_paths:
     - _sass
     - node_modules
+
+# Files to exclude
+exclude: ['old-site-files']
