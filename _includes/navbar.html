@@ -1,6 +1,6 @@
 <header>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="/index.html">Kano Kwai Laarne</a>
+        <a class="navbar-brand" href="{{ site.baseurl }}/index.html">Kano Kwai Laarne</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
         aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -15,16 +15,16 @@
                     {% endif %}
                     {% if link.sublinks %}
                         <li class="nav-item dropdown {{ class }}"> 
-                            <a class="nav-link dropdown-toggle" href="{{ link.url }}" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ link.title }} <span class="sr-only">(current)</span></a>
+                            <a class="nav-link dropdown-toggle" href="{{ site.baseurl }}{{ link.url }}" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ link.title }} <span class="sr-only">(current)</span></a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 {% for sublink in link.sublinks %}
-                                    <a class="dropdown-item" href="{{sublink.url}}">{{ sublink.title}}</a>
+                                    <a class="dropdown-item" href="{{ site.baseurl }}{{sublink.url}}">{{ sublink.title}}</a>
                                 {% endfor %}
                             </div>
                         </li>
                     {% else %}
                         <li class="nav-item {{ class }}">
-                            <a class="nav-link" href="{{ link.url }}">{{ link.title }}</a>
+                            <a class="nav-link" href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
                         </li>
                     {% endif %}
                 {% endfor %}
