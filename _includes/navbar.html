@@ -15,16 +15,16 @@
                     {% endif %}
                     {% if link.sublinks %}
                         <li class="nav-item dropdown {{ class }}"> 
-                            <a class="nav-link dropdown-toggle" href="{{ link.url }}" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ link.title }} <span class="sr-only">(current)</span></a>
+                            <a class="nav-link dropdown-toggle" href="{{ site.baseurl }}{{ link.url }}" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ link.title }} <span class="sr-only">(current)</span></a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 {% for sublink in link.sublinks %}
-                                    <a class="dropdown-item" href="{{sublink.url}}">{{ sublink.title}}</a>
+                                    <a class="dropdown-item" href="{{ site.baseurl }}{{sublink.url}}">{{ sublink.title}}</a>
                                 {% endfor %}
                             </div>
                         </li>
                     {% else %}
                         <li class="nav-item {{ class }}">
-                            <a class="nav-link" href="{{ link.url }}">{{ link.title }}</a>
+                            <a class="nav-link" href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
                         </li>
                     {% endif %}
                 {% endfor %}
