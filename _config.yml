@@ -8,4 +8,10 @@ sass:
     - assets/css
 
 # Files to exclude
-exclude: ['old-site-files']
+exclude:
+  - old-site-files
+  - node-modules
+  - package*
+  - Gemfile
+  - Gemfile.lock
+  - .gitignore
