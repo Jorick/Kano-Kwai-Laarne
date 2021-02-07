@@ -5,7 +5,7 @@ title: "Kano Kwai Laarne" # the name of your site, e.g. ACME Corp.
 sass:
   load_paths:
     - _sass
-    - node_modules
+    - assets/css
 
 # Files to exclude
 exclude: ['old-site-files']

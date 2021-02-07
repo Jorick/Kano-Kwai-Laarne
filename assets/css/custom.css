@@ -1,8 +1,13 @@
 body {
   font-family: 'Source Sans Pro';
   padding-top: 50px;
+  padding-bottom: 50px;
   color: #1d1f21;
   background-color: #fdfdfd;
+}
+
+footer {
+  padding-top: 120px;
 }
 
 a {

@@ -4,34 +4,33 @@ title: Home
 permalink: /index
 ---
 
-<main role="main">
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1" class=""></li>
-      <li data-target="#myCarousel" data-slide-to="2" class=""></li>
-    </ol>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img class="fill center-block" src={{ "assets/images/IMG_6960.jpg" | relative_url }} alt="First slide" />
-      </div>
-      <div class="carousel-item">
-        <img class="fill center-block" src={{ "assets/images/IMG_7182.jpg" | relative_url }} alt="Second slide" />
-      </div>
-      <div class="carousel-item">
-        <img class="fill center-block" src={{ "assets/images/IMG_7069.jpg" | relative_url }} alt="Third slide" />
-      </div>
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+    <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="fill center-block" src={{ "assets/images/IMG_6960.jpg" | relative_url }} alt="First slide" />
     </div>
-    <a class="left carousel-control" href="javascript:void(0)" role="button" data-slide="prev"
-    data-target="#myCarousel">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Vorige</span>
-  </a>
-  <a class="right carousel-control" href="javascript:void(0)" role="button" data-slide="next"
+    <div class="carousel-item">
+      <img class="fill center-block" src={{ "assets/images/IMG_7182.jpg" | relative_url }} alt="Second slide" />
+    </div>
+    <div class="carousel-item">
+      <img class="fill center-block" src={{ "assets/images/IMG_7069.jpg" | relative_url }} alt="Third slide" />
+    </div>
+  </div>
+  <a class="left carousel-control" href="javascript:void(0)" role="button" data-slide="prev"
   data-target="#myCarousel">
-  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-  <span class="sr-only">Volgende</span>
+  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+  <span class="sr-only">Vorige</span>
+</a>
+<a class="right carousel-control" href="javascript:void(0)" role="button" data-slide="next"
+data-target="#myCarousel">
+<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+<span class="sr-only">Volgende</span>
 </a>
 </div>
 <!-- /.carousel -->
@@ -72,6 +71,5 @@ permalink: /index
       <div class="col-md-6 col-sm-6">
         {{ post }}
       </div>
-     {% endfor %}
+    {% endfor %}
   </div>
-</div>

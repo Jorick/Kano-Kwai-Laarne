@@ -2,10 +2,12 @@
 <html lang="{{ site.lang | default: "en-US" }}">
   {% include header.html %}  
   <body>
+    <main role="main">
     {% include navbar.html %}
-    <div class="container">
-      {{ content }}
-    </div>
-    {% include footer.html %}
-  </body>
+      <div class="container">
+        {{ content }}
+      </div>
+     {% include footer.html %}
+   </main>
+ </body>
 </html>
