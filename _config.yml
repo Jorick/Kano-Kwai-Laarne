@@ -1,0 +1,11 @@
+url: "http://Jorick.github.io/Kano-Kwai-Laarne" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+title: "Kano Kwai Laarne" # the name of your site, e.g. ACME Corp.
+
+sass:
+  load_paths:
+    - _sass
+    - assets/css
+
+# Files to exclude
+exclude: ['old-site-files']

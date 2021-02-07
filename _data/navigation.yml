@@ -1,0 +1,28 @@
+- title: Judo
+  url: /judo.html
+  sublinks:
+    - title: Trainingen
+      url: /judo.html#judotraining
+    - title: Judoplatform
+      url: /judo.html#judoplatform
+    - title: Examens
+      url: /judo.html#judoexamen
+    - title: wedstrijden
+      url: /judo.html#judowedstrijden
+    - title: Foto's
+      url: /judo.html#judofoto
+    - title: Lesgevers
+      url: /judo.html#judolesgevers"
+- title: Info
+  url: /about.html
+  sublinks:
+    - title: Lid Worden
+      url: /about.html#lidworden
+    - title: Locatie
+      url: /about.html#locatie
+    - title: Over Kano Kwai
+      url: /about.html#overkanokwai
+    - title: Bestuur
+      url: /about.html#bestuur
+- title: Contact
+  url: /contact.html

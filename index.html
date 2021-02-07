@@ -1,0 +1,75 @@
+---
+layout: default
+title: Home
+permalink: /index
+---
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+    <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="fill center-block" src={{ "assets/images/IMG_6960.jpg" | relative_url }} alt="First slide" />
+    </div>
+    <div class="carousel-item">
+      <img class="fill center-block" src={{ "assets/images/IMG_7182.jpg" | relative_url }} alt="Second slide" />
+    </div>
+    <div class="carousel-item">
+      <img class="fill center-block" src={{ "assets/images/IMG_7069.jpg" | relative_url }} alt="Third slide" />
+    </div>
+  </div>
+  <a class="left carousel-control" href="javascript:void(0)" role="button" data-slide="prev"
+  data-target="#myCarousel">
+  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+  <span class="sr-only">Vorige</span>
+</a>
+<a class="right carousel-control" href="javascript:void(0)" role="button" data-slide="next"
+data-target="#myCarousel">
+<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+<span class="sr-only">Volgende</span>
+</a>
+</div>
+<!-- /.carousel -->
+<div class="container marketing">
+  <div class="row featurette">
+    <div class="col-lg-2 col-md-3 col-xs-12">
+      <img class="featurette-image img-fluid center-block" src={{ "/assets/images/kkl-logo.png" | relative_url }} alt="Kano Kwai Laarne logo" />
+    </div>
+    <div class="col-lg-8 col-md-6 col-xs-12">
+      <h1 class="heading">Welkom op de website van Kano Kwai Laarne!</h1>
+      <p class="lead">
+        De trainingssessies vinden plaats in de gemeentelijke sporthal
+        "Veldmeers",
+        <a href="https://www.google.com/maps/place/Leeweg+25,+9270+Laarne,+Belgi%C3%AB/@51.0293597,3.8730577,17z/data=!3m1!4b1!4m2!3m1!1s0x47c39e782a2a7f37:0x5eae70ea58743b67"
+        target="blank">Leeweg 25 te Laarne.</a>
+      </p>
+      <p class="lead">
+        Iedereen is welkom tijdens onze lessen. Meer info daaromtrent
+        vindt u op onze pagina
+        <a href="judo.html#judotraining">Trainingssessies judo</a>.
+      </p>
+      <p class="lead">
+        Onze vereniging staat open voor alle leeftijden tussen 6 en 99
+        jaar.
+      </p>
+    </div>
+    <div class="col-lg-2 col-md-6 col-xs-12">
+      <img class="featurette-image img-fluid center-block" src={{ "/assets/images/vjf_jeugdsport_brons_2020_small.jpg" | relative_url }} alt="Kano Kwai Laarne logo" />
+    </div>
+  </div>
+  
+  <div class="row featurette">
+    <div class="col-md-12">
+      <!--NEWS-->
+      <h1 class="featurette-heading">Nieuws</h1>
+    </div>
+    {% for post in site.posts %}
+      <div class="col-md-6 col-sm-6">
+        {{ post }}
+      </div>
+    {% endfor %}
+  </div>
