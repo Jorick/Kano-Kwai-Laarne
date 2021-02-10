@@ -2406,4 +2406,89 @@ a.text-dark:hover, a.text-dark:focus { color: #121416 !important; }
 
 @media print { *, *::before, *::after { text-shadow: none !important; box-shadow: none !important; } a:not(.btn) { text-decoration: underline; } abbr[title]::after { content: " (" attr(title) ")"; } pre { white-space: pre-wrap !important; } pre, blockquote { border: 1px solid #adb5bd; page-break-inside: avoid; } thead { display: table-header-group; } tr, img { page-break-inside: avoid; } p, h2, h3 { orphans: 3; widows: 3; } h2, h3 { page-break-after: avoid; } @page { size: a3; } body { min-width: 992px !important; } .container { min-width: 992px !important; } .navbar { display: none; } .badge { border: 1px solid #000; } .table { border-collapse: collapse !important; } .table td, .table th { background-color: #fff !important; } .table-bordered th, .table-bordered td { border: 1px solid #dee2e6 !important; } .table-dark { color: inherit; } .table-dark th, .table-dark td, .table-dark thead th, .table-dark tbody + tbody { border-color: #dee2e6; } .table .thead-dark th { color: inherit; border-color: #dee2e6; } }
 
+body { font-family: 'Source Sans Pro'; padding-top: 50px; padding-bottom: 50px; color: #1d1f21; background-color: #fdfdfd; }
+
+footer { padding-top: 120px; }
+
+a { color: #449ccf; }
+
+h1.featurette-heading { margin-bottom: 1em; margin-top: 2em; }
+
+h2 { margin-bottom: 1em; margin-top: 0.5em; }
+
+.row { color: #1d1f21; }
+
+.lead { color: #1d1f21; }
+
+.heading { color: #1f1f21; }
+
+.featurette > img { max-width: 500px; max-height: 500px; }
+
+.featurette-heading { color: #1d1f21; }
+
+hr.featurette-divider { border: 0; height: 1px; /*  background: #ff0c00; */ background-image: linear-gradient(to right, #fdfdfd, #2626264d, #fdfdfd); }
+
+/* Custom button styling */
+.btn-primary { border-color: #81a2be; background-image: -webkit-linear-gradient(top, #81a2be 0%, #81a2be 100%); background-image: -o-linear-gradient(top, #81a2be 0%, #81a2be 100%); background-image: -webkit-gradient(linear, left top, left bottom, from(#81a2be), to(#81a2be)); background-image: linear-gradient(to bottom, #81a2be 0%, #81a2be 100%); background-repeat: repeat-x; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff81a2be', endColorstr='#ff81a2be', GradientType=0); filter: progid:DXImageTransform.Microsoft.gradient(enabled = false); }
+
+.btn-primary:hover, .btn-primary:focus { background-color: #81a2be; background-position: 0 -15px; }
+
+.btn-primary:active, .btn-primary.active { border-color: #81a2be; background-color: #81a2be; }
+
+.btn-primary:disabled, .btn-primary[disabled] { background-color: #81a2be; background-image: none; }
+
+/* Custom styling the navbar to flat look */
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus { background-color: #c66; background-image: -webkit-linear-gradient(top, #c66 0%, #c66 100%); background-image: -o-linear-gradient(top, #c66 0%, #c66 100%); background-image: -webkit-gradient(linear, left top, left bottom, from(#c66), to(#c66)); background-image: linear-gradient(to bottom, #c66 0%, #c66 100%); background-repeat: repeat-x; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffcc6666', endColorstr='#ffcc6666', GradientType=0); }
+
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus { background-color: #1d1f21; background-image: -webkit-linear-gradient(top, #1d1f21 0%, #1d1f21 100%); background-image: -o-linear-gradient(top, #1d1f21 0%, #1d1f21 100%); background-image: -webkit-gradient(linear, left top, left bottom, from(#1d1f21), to(#1d1f21)); background-image: linear-gradient(to bottom, #1d1f21 0%, #1d1f21 100%); background-repeat: repeat-x; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff1d1f21', endColorstr='#ff1d1f21', GradientType=0); }
+
+.navbar-brand, .navbar-nav > li > a { text-shadow: 0 1px 0 rgba(255, 255, 255, 0.25); }
+
+.navbar-inverse { background-color: #1d1f21; background-image: -webkit-linear-gradient(top, #1d1f21 0%, #1d1f21 100%); background-image: -o-linear-gradient(top, #1d1f21 0%, #1d1f21 100%); background-image: -webkit-gradient(linear, left top, left bottom, from(#1d1f21), to(#1d1f21)); background-image: linear-gradient(to bottom, #1d1f21 0%, #1d1f21 100%); background-repeat: repeat-x; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff1d1f21', endColorstr='#ff1d1f21', GradientType=0); }
+
+.navbar-inverse .navbar-nav > .active > a { background-image: -webkit-linear-gradient(top, #373b41 0%, #373b41 100%); background-image: -o-linear-gradient(top, #373b41 0%, #373b41 100%); background-image: -webkit-gradient(linear, left top, left bottom, from(#373b41), to(#373b41)); background-image: linear-gradient(to bottom, #373b41 0%, #373b41 100%); background-repeat: repeat-x; -webkit-box-shadow: inset 0 3px 9px rgba(0, 0, 0, 0.25); box-shadow: inset 0 3px 9px rgba(0, 0, 0, 0.25); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff373b41', endColorstr='#ff373b41', GradientType=0); }
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a { text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25); }
+
+.fill { display: block; min-height: 100%; min-width: 100%; overflow: hidden; object-fit: cover; }
+
+iframe { width: 100%; height: 100%; min-height: 400px; }
+
+.slider-size { height: 400px; /* This is your slider height */ }
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+/* Carousel base class */
+.carousel { margin-bottom: 4rem; }
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption { bottom: 3rem; z-index: 10; }
+
+/* Declare heights because of positioning of img element */
+.carousel-item { height: 32rem; }
+
+.carousel-item > img { position: absolute; top: 0; left: 0; min-width: 100%; height: 32rem; }
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 { margin-bottom: 1.5rem; text-align: center; }
+
+.marketing h2 { font-weight: 400; }
+
+.marketing .col-lg-4 p { margin-right: .75rem; margin-left: .75rem; }
+
+/* Featurettes
+------------------------- */
+.featurette-divider { margin: 5rem 0; /* Space out the Bootstrap <hr> more */ }
+
+/* Thin out the marketing headings */
+.featurette-heading { font-weight: 300; line-height: 1; letter-spacing: -.05rem; }
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+@media (min-width: 40em) { /* Bump up size of carousel content */ .carousel-caption p { margin-bottom: 1.25rem; font-size: 1.25rem; line-height: 1.4; } .featurette-heading { font-size: 50px; } }
+
+@media (min-width: 62em) { .featurette-heading { margin-top: 7rem; } }
+
 /*# sourceMappingURL=main.css.map */

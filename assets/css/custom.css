@@ -49,7 +49,7 @@ hr.featurette-divider {
   border: 0; 
   height: 1px; 
 /*  background: #ff0c00; */
-  background-image: linear-gradient(to right, #fdfdfd, #2626264d, #fdfdfd));
+  background-image: linear-gradient(to right, #fdfdfd, #2626264d, #fdfdfd);
 }
 /*
  * Custom button styling
