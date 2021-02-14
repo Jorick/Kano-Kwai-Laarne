@@ -22,16 +22,14 @@ permalink: /index
       <img class="fill center-block" src={{ "assets/images/IMG_7069.jpg" | relative_url }} alt="Third slide" />
     </div>
   </div>
-  <a class="left carousel-control" href="javascript:void(0)" role="button" data-slide="prev"
-  data-target="#myCarousel">
-  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-  <span class="sr-only">Vorige</span>
-</a>
-<a class="right carousel-control" href="javascript:void(0)" role="button" data-slide="next"
-data-target="#myCarousel">
-<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-<span class="sr-only">Volgende</span>
-</a>
+  <a class="left carousel-control" href="javascript:void(0)" role="button" data-slide="prev" data-target="#myCarousel">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Vorige</span>
+  </a>
+  <a class="right carousel-control" href="javascript:void(0)" role="button" data-slide="next" data-target="#myCarousel">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Volgende</span>
+  </a>
 </div>
 <!-- /.carousel -->
 <div class="container marketing">
@@ -68,7 +66,7 @@ data-target="#myCarousel">
       <h1 class="featurette-heading">Nieuws</h1>
     </div>
     {% for post in site.posts %}
-        {{ post }}
+    {{ post }}
     {% endfor %}
   </div>
 </div>
