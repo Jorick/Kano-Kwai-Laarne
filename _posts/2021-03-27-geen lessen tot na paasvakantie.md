@@ -2,7 +2,7 @@
 layout: posts
 ---
 
-DBeste Judoka’s, ouders,
+Beste Judoka’s, ouders,
 
 We hebben als club besloten om samen met de scholen ook onze judolessen stop te zetten, dit ondanks dat voor de sport geen bijkomende maatregelen genomen zijn. Het leek ons echter niet logisch dat de scholen gesloten worden vanwege het hoge aantal besmettingen maar dat een indoor contactsport wel toegelaten blijft. 
 
