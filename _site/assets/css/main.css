@@ -2436,6 +2436,8 @@ nav { font-family: 'Staatliches'; font-size: 1em; }
 
 hr.featurette-divider { border: 0; height: 1px; /*  background: #ff0c00; */ background-image: linear-gradient(to right, #fdfdfd, #2626264d, #fdfdfd); }
 
+.bg-dark { background-color: #1d1f21 !important; }
+
 /* Custom button styling */
 .btn-primary { border-color: #81a2be; background-image: -webkit-linear-gradient(top, #81a2be 0%, #81a2be 100%); background-image: -o-linear-gradient(top, #81a2be 0%, #81a2be 100%); background-image: -webkit-gradient(linear, left top, left bottom, from(#81a2be), to(#81a2be)); background-image: linear-gradient(to bottom, #81a2be 0%, #81a2be 100%); background-repeat: repeat-x; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff81a2be', endColorstr='#ff81a2be', GradientType=0); filter: progid:DXImageTransform.Microsoft.gradient(enabled = false); }
 

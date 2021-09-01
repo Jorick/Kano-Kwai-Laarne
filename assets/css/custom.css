@@ -69,6 +69,10 @@ hr.featurette-divider {
 /*  background: #ff0c00; */
   background-image: linear-gradient(to right, #fdfdfd, #2626264d, #fdfdfd);
 }
+
+.bg-dark {
+  background-color: #1d1f21 !important;
+}
 /*
  * Custom button styling
 */
