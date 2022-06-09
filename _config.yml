@@ -4,7 +4,6 @@ baseurl: "" # Subpath for non gh-pages host
 title: "Kano Kwai Laarne" # the name of your site, e.g. ACME Corp.
 
 sass:
-  sass_dir: assets/css
   load_paths:
     - _sass
     - assets/css
