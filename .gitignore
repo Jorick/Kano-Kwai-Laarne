@@ -1,5 +1,6 @@
 # Ignore following files and folders
 /old-site-files
 /_site
-/mode_modules
+/node_modules
+/.jekyll-cache
 Gemfile.lock
