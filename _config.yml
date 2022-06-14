@@ -8,12 +8,12 @@ sass:
     - _sass
     - assets/css
     
- include:
-    - _data
-    - _includes
-    - _sass
-    - _posts
-    - _layout
+include:
+  - _data
+  - _includes
+  - _sass
+  - _posts
+  - _layout
 
 # Files to exclude
 exclude:
