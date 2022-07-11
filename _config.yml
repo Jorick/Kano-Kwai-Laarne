@@ -1,13 +1,13 @@
 url: "https://Jorick.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/Kano-Kwai-Laarne" # the subpath of your site, onlh for gh-pages host
-#baseurl: "" # Subpath for non gh-pages host
+#baseurl: "/Kano-Kwai-Laarne" # the subpath of your site, onlh for gh-pages host
+baseurl: "" # Subpath for non gh-pages host
 title: "Kano Kwai Laarne" # the name of your site, e.g. ACME Corp.
 
 sass:
   load_paths:
     - _sass
     - assets/css
-    
+
 include:
   - _data
   - _includes
