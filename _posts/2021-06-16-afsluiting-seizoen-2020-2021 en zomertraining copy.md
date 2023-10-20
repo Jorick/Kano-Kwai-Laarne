@@ -1,5 +1,6 @@
 ---
 layout: posts
+title: afsluiten seizoen 2020 2021
 ---
 
 Afsluiting seizoen
@@ -9,16 +10,17 @@ Na de training krijgt elke judoka twee drankbonnetjes voor een consumptie in de 
 
 De training zal in tegenstelling tot vorige jaren per groep doorgaan op de gewoonlijke uren en niet met alle judoka’s gelijktijdig.
 
-
 Zomertraining
 
 Om de weggevallen maanden te compenseren voor onze judoka’s vanaf 13 jaar zullen we voor hun dit jaar uitzonderlijk geen onderbreking tijdens de zomervakantie houden:
 
-Wie: 
-* Voor judoka’s U15 (groep 2) vanaf 13 jaar
-* Judoka’s uit groep U18+ (groep 3)
+Wie:
+
+- Voor judoka’s U15 (groep 2) vanaf 13 jaar
+- Judoka’s uit groep U18+ (groep 3)
 
 Wanneer:
-* Maand juni vanaf 22/06: Training in de dojo van 19:30u tot 21u op dinsdag en vrijdag.
-* Maand juli (sluiting sporthal): Training buiten van 19:30u tot 21u op dinsdag en vrijdag. (Afspraak aan de ingang sporthal, sportkledij en schoenen aan hebben + judovest mee nemen)
-* Maand augustus: training in de dojo van 19:30u tot 21u op dinsdag en vrijdag.
+
+- Maand juni vanaf 22/06: Training in de dojo van 19:30u tot 21u op dinsdag en vrijdag.
+- Maand juli (sluiting sporthal): Training buiten van 19:30u tot 21u op dinsdag en vrijdag. (Afspraak aan de ingang sporthal, sportkledij en schoenen aan hebben + judovest mee nemen)
+- Maand augustus: training in de dojo van 19:30u tot 21u op dinsdag en vrijdag.

@@ -1,5 +1,6 @@
 ---
 layout: posts
+title: Geen lessen deze week.
 ---
 
 Deze week worden de lessen geannuleerd. Een van onze judoka's heeft vorige week positief getest op COVID-19, uit voorzorg worden de lessen daarom een week geannuleerd.

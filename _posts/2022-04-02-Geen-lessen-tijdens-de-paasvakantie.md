@@ -1,5 +1,6 @@
 ---
 layout: posts
+title: geen lessen tijdens de paasvakantie
 ---
 
 Tijdens de paasvakantie is er geen les voor groepen U11 en U13.

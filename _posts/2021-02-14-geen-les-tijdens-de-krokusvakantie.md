@@ -1,5 +1,6 @@
 ---
 layout: posts
+title: Geen les tijdens krokusvakantie
 ---
 
 Tijdens de krokusvakantie is er geen les. Wij wensen al onze judoka's een prettige vakantie toe!
